@@ -1,0 +1,66 @@
+body {
+  background-color: #FFF6E8 !important;
+}
+
+div {
+  height: auto;
+}
+
+.text-row {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.centered-text {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-text p {
+  padding-top: 5vh;
+  font-family: 'Unbounded', Arial, sans-serif;
+}
+
+.centered-text .text-row {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.centered-text .text-cursor {
+  font-size: 36px;
+  font-weight: 100;
+  margin-left: 2px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#down-arrow {
+  height: 5vh;
+  margin-bottom: 5vh;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 2s forwards;
+}
+
+.about-page {
+  margin-top: 5em;
+}
+
+.accordion {
+  width: 75%;
+  margin-bottom: 5em;
+}
+
+.accordion-button {
+  background-color: blue;
+  font-family: 'Unbounded', Arial, sans-serif;
+}
